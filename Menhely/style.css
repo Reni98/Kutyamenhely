@@ -5,7 +5,8 @@
 }
 .fokep{
             width: 450px;            
-           
+          display: block;
+          margin: 0 auto;
         }
 .kepek{
         width: 300px;
@@ -35,4 +36,5 @@ body{
 }
 h1,h2{
     text-align: center;
+
 }
