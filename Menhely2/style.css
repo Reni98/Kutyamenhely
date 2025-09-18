@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+     font-family: "Roboto", sans-serif;
+}
+.fokep{
+            width: 450px;
+            display: block;
+            margin: 0 auto;
+           
+        }
+.kepek{
+        width: 300px;
+        border-radius: 200px;
+        border: 3px solid darkblue;
+        box-shadow: 10px 10px lightgrey;
+        margin: 10px;
+}
+
+.kepek:hover{
+        box-shadow: 10px 10px blue;
+
+}
+body{
+    background-color: lightblue;
+}
+
+.dogs{
+    width: 800px;    
+    margin: 0 auto ;
+   
+}
+
+.orokbefogadas{
+    width: 800px;
+    margin: 0 auto ;
+    text-align: center;
+
+}
+
+ .orokbefogadas th, .orokbefogadas td {
+    border: 1px solid black;
+}
+h1,h2{
+    text-align: center;
+}
+
+nav{
+    /* background-color: rgb(71, 200, 244); */
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+
+}
+
+nav li{
+    display: inline-block;
+    
+}
+
+nav a{
+    /* background-color: white; */
+    text-decoration: none;
+    color: darkcyan;
+    margin: 10px;
+
+}
+
+nav a:hover{
+    color: blue;
+    /* background-color:  white; */
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0 50px 0;
+}
